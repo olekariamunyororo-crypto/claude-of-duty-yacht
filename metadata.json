@@ -1,0 +1,6 @@
+{
+  "name": "Claude of Duty: Vibe Slops II",
+  "description": "3D browser FPS inspired by Hijacked yacht map, featuring NV-4 carbine, Ghost bots, procedural audio, minimap radar, and fast-paced arena combat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
