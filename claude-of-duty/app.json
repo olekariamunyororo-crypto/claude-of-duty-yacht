@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Claude of Duty",
+    "slug": "claude-of-duty",
+    "version": "0.1.0",
+    "scheme": "claude-of-duty",
+    "orientation": "landscape",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#05080d",
+    "newArchEnabled": true,
+    "plugins": ["expo-router"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vibeslops.claudeofduty",
+      "infoPlist": { "UIRequiresFullScreen": true }
+    },
+    "android": {
+      "package": "com.vibeslops.claudeofduty",
+      "softwareKeyboardLayoutMode": "pan"
+    }
+  }
+}

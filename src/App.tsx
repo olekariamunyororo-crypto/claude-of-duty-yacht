@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { Play, Settings as SettingsIcon, Shield, Crosshair, Award, Volume2 } from 'lucide-react';
+import { Play, Settings as SettingsIcon, Shield, Crosshair, Award, Volume2, Download } from 'lucide-react';
 import { GameEngine } from './game/renderer';
 import { audio } from './game/audio';
 import { Hud } from './components/Hud';
@@ -387,6 +387,15 @@ export default function App() {
                 <SettingsIcon className="w-4 h-4 text-cyan-400" />
                 <span>SETTINGS & CONTROLS</span>
               </button>
+
+              <a
+                href="/Claude-of-Duty.zip"
+                download="Claude-of-Duty.zip"
+                className="w-full py-2.5 bg-slate-900/80 hover:bg-slate-850 text-slate-300 hover:text-white border border-slate-700/60 font-semibold tracking-wider text-[11px] rounded-xl flex items-center justify-center space-x-2 transition-colors cursor-pointer"
+              >
+                <Download className="w-3.5 h-3.5 text-amber-400" />
+                <span>DOWNLOAD CLAUDE-OF-DUTY.ZIP</span>
+              </a>
             </div>
 
             <div className="text-[11px] text-slate-500 max-w-xs">
